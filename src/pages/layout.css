@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .layout {
+    font-family: Arial, sans-serif;
+  }
+  
+  
